@@ -2,7 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Impact", "sans-serif"],
+      },
+      colors: {
+        kappa: {
+          blue: "#5FC2C0",
+          bluetwo: "#1E706F",
+          orangeyellow: "#ED8C0C",
+          lightcyan: "#76CCE8",
+          pinkish: "#D0716F",
+        },
+      },
+    },
   },
   plugins: [],
 };

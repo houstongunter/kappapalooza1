@@ -1,5 +1,13 @@
+import Intro from "./components/Intro";
+import Question from "./components/Question";
+
 const App = () => {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <Intro />
+      <Question />
+    </>
+  );
 };
 
 export default App;
