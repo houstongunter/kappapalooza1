@@ -1,6 +1,6 @@
 const Question = () => {
   return (
-    <div className="h-full bg-gradient-to-b from-kappa-blue to-kappa-bluetwo">
+    <div className="h-full bg-gradient-to-b from-kappa-blue to-kappa-bluetwo shadow-none">
       <div className="flex flex-col justify-center items-center h-full text-3xl text-white space-y-8">
         <p>What is Kappapalooza?</p>
         <p className="text-8xl">
