@@ -6,7 +6,7 @@ const Sponsor = () => {
       </p>
       <div className="grid grid-cols-3 gap-4 place-items-center">
         <img src="/yerbamate.png" height={323} width={309} />
-        <img src="/redbull.jpeg" height={323} width={309} />
+        <img src="/redbull.png" height={323} width={309} />
         <img src="/passion_tree.png" height={323} width={309} />
       </div>
     </div>
