@@ -30,19 +30,19 @@ const Question = () => {
       <div className="flex flex-col justify-center items-center h-full text-3xl text-white space-y-8 ">
         <motion.p style={{ scale }}>What is Kappapalooza?</motion.p>
         <motion.p
-          className="text-4xl lg:text-9xl text-center w-full"
+          className="text-4xl lg:text-8xl text-center w-full"
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           variants={popInAnimation8xl}
         >
           Riverside&apos;s{" "}
-          <span className="text-kappa-orangeyellow text-5xl">BIGGEST</span>
+          <span className="text-kappa-orangeyellow text-5xl lg:text-9xl">BIGGEST</span>
         </motion.p>
         <motion.p
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           variants={popInAnimation9xl}
-          className="text-7xl lg:text-9xl w-full text-center"
+          className="text-5xl lg:text-9xl w-full text-center"
         >
           <span className="text-kappa-lightcyan">Dayger</span> of the{" "}
           <span className="text-kappa-pinkish">year!</span>
