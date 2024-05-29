@@ -8,9 +8,6 @@ const Sponsor = () => {
         <img src="/yerbamate.png" height={323} width={309} />
         <img src="/redbull.jpeg" height={323} width={309} />
         <img src="/passion_tree.png" height={323} width={309} />
-        <img src="/flume.webp" height={323} width={309} />
-        <img src="/snow.png" height={323} width={309} />
-        <img src="/mcdonalds.png" height={323} width={309} />
       </div>
     </div>
   );

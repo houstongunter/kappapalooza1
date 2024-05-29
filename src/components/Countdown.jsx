@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const Digits = ({ value, withColon }) => {
   return (
-    <div className="flex flex-col items-center last:hidden sm:last:flex">
+    <div className="flex flex-col items-center sm:last:flex">
       <div className="flex">
         {value
           .toString()
@@ -11,14 +11,14 @@ const Digits = ({ value, withColon }) => {
           .split("")
           .map((digit, index) => (
             <div
-              className="text-lg lg:text-6xl font-bold text-kappa-lightercyan p-2 rounded-lg"
+              className="text-3xl lg:text-6xl font-bold text-kappa-lightercyan p-2 rounded-lg"
               key={index}
             >
               {digit}
             </div>
           ))}
         {withColon && (
-          <div className="text-lg lg:text-6xl font-bold text-kappa-lightercyan p-2 rounded-lg">
+          <div className="text-3xl lg:text-6xl font-bold text-kappa-lightercyan p-2 rounded-lg">
             :
           </div>
         )}

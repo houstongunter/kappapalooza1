@@ -19,7 +19,7 @@ const Navbar = ({ isVisible }) => {
 
   return (
     <motion.div className="w-full fixed top-0" animate={controls} initial={{ y: -100 }}>
-      <div className="bg-kappa-orange h-[7vh] w-full">
+      <div className="bg-kappa-orange h-fit w-full">
         <div className="flex flex-row justify-center items-center gap-5">
           <img src="kappapalooza.png" height={100} width={200} />
           <div className="text-white text-md flex flex-col">
@@ -29,7 +29,7 @@ const Navbar = ({ isVisible }) => {
         </div>
       </div>
       <motion.div
-        className="h-[10px] bg-white w-full fixed top-[7vh]"
+        className="h-[10px] bg-white w-full fixed top-fit"
         style={{ scaleX: scrollYProgress, transformOrigin: 0 }}
       />
     </motion.div>
