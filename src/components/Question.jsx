@@ -27,7 +27,7 @@ const Question = () => {
       ref={ref}
       className="h-[93vh] bg-gradient-to-b from-kappa-blue to-kappa-bluetwo shadow-none"
     >
-      <div className="flex flex-col justify-center items-center h-full text-3xl text-white space-y-8 ">
+      <div className="flex flex-col justify-center items-center h-full text-3xl text-white space-y-8">
         <motion.p style={{ scale }}>What is Kappapalooza?</motion.p>
         <motion.p
           className="text-4xl lg:text-8xl text-center w-full"

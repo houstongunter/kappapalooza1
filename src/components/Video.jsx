@@ -37,7 +37,7 @@ const Video = () => {
           className="text-white rounded-full p-2 bg-kappa-orangeyellow"
           onClick={handleUnmute}
         >
-          UNMUTE
+          {isMuted ? "UNMUTE" : "MUTE"}
         </button>
       </motion.div>
     </div>
