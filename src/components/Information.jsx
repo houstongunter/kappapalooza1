@@ -37,17 +37,17 @@ const Section = ({ title, content }) => {
 };
 
 const DJs = [
-  { name: "DJ KevKev", color: "text-kappa-pinkish", duration: 1.5 },
+  { name: "KevKev", color: "text-kappa-pinkish", duration: 1.5 },
   { name: "SPECIAL GUEST", color: "text-kappa-lightcyan", duration: 0.3 },
-  { name: "DJ Ferb", color: "text-kappa-lime", duration: 1.2 },
+  { name: "Ilan", color: "text-kappa-lime", duration: 1.2 },
 ];
 const activities = [
   { name: "Surprise", color: "text-kappa-pinkish", duration: 0.3 },
   { name: "Dunk Tank", color: "text-kappa-lime", duration: 1.3 },
-  { name: "10 ft Water Slide", color: "text-kappa-lightcyan", duration: 0.4 },
+  { name: "Water Slide", color: "text-kappa-lightcyan", duration: 0.4 },
 ];
 const food = [
-  { name: "Tacos", color: "text-kappa-lime", duration: 1 },
+  { name: "Burgers", color: "text-kappa-lime", duration: 1 },
   { name: "Snow Cones", color: "text-kappa-pinkish", duration: 0.7 },
   { name: "Hot Dogs", color: "text-kappa-lightcyan", duration: 1.1 },
 ];
@@ -59,7 +59,7 @@ const drinks = [
 
 const Information = () => {
   return (
-    <div className="h-fit flex flex-col bg-gradient-to-b from-kappa-bluethree to-kappa-bluefour shadow-none justify-evenly">
+    <div className="h-fit flex flex-col bg-gradient-to-b from-kappa-bluethree to-kappa-bluefour shadow-none justify-evenly gap-y-4">
       <Section title="Featuring" content={DJs} />
       <Section title="Activities" content={activities} />
       <Section title="Food" content={food} />
