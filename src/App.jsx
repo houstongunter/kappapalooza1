@@ -3,6 +3,7 @@ import Question from "./components/Question";
 import Video from "./components/Video";
 import Information from "./components/Information";
 import RSVP from "./components/RSVP";
+import Sponsor from "./components/Sponsor";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Video />
       <Information />
       <RSVP />
+      <Sponsor />
     </>
   );
 };
