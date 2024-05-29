@@ -31,7 +31,7 @@ const Navbar = ({ isVisible }) => {
         </div>
       </div>
       <motion.div
-        className="h-[10px] bg-white w-full"
+        className="h-[5px] bg-white w-full"
         style={{ scaleX: scrollYProgress, transformOrigin: 0 }}
       />
     </motion.div>
