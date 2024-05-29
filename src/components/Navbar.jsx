@@ -25,7 +25,7 @@ const Navbar = ({ isVisible }) => {
     >
       <div className="bg-kappa-orange h-fit w-full">
         <div className="flex flex-row justify-center items-center gap-5">
-          <img src="kappapalooza.png" height={100} width={200} />
+          <img src="kappapalooza.png" height={150} width={250} />
           <div className="text-white text-md flex flex-col">
             <p>June 1st, 2024</p>
             <p>Riverside, CA</p>
