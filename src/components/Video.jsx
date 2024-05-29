@@ -33,7 +33,7 @@ const Video = () => {
           >
           <source src="/frfr.mp4" />
         </motion.video>
-        <button className="text-black rounded-full p-2 bg-kappa-orangeyellow" onClick={handleUnmute}>UNMUTE</button>
+        <button className="text-white rounded-full p-2 bg-kappa-orangeyellow" onClick={handleUnmute}>UNMUTE</button>
       </motion.div>
     </div>
   );

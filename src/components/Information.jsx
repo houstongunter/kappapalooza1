@@ -59,7 +59,7 @@ const drinks = [
 
 const Information = () => {
   return (
-    <div className="h-full flex flex-col bg-gradient-to-b from-kappa-bluethree to-kappa-bluefour shadow-none justify-evenly">
+    <div className="h-fit flex flex-col bg-gradient-to-b from-kappa-bluethree to-kappa-bluefour shadow-none justify-evenly">
       <Section title="Featuring" content={DJs} />
       <Section title="Activities" content={activities} />
       <Section title="Food" content={food} />

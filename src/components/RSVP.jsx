@@ -8,7 +8,7 @@ const RSVP = () => {
       </div>
       <a
         href="https://posh.vip/e/kappapalooza-24"
-        className="text-7xl lg:text-9xl text-kappa-red rounded-full p-8 bg-black"
+        className="text-7xl lg:text-9xl text-kappa-red rounded-full p-8 bg-black hover:text-kappa-blue"
       >
         RSPV NOW
       </a>
