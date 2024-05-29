@@ -25,15 +25,15 @@ const Video = () => {
       >
         <motion.video
           style={{ scale }}
-          className="flex justify-center items-center rounded-lg object-cover md:h-1/5 md:w-1/5 pb-5"
+          className="flex justify-center items-center rounded-lg object-cover md:h-1/5 md:w-1/5"
           autoPlay
           muted={isMuted}
           playsInline
           loop
+          onClick={handleUnmute}
           >
           <source src="/frfr.mp4" />
         </motion.video>
-        <button className="text-white rounded-full p-2 bg-kappa-orangeyellow" onClick={handleUnmute}>UNMUTE</button>
       </motion.div>
     </div>
   );
