@@ -19,7 +19,11 @@ const Section = ({ title, content }) => {
             animate={isInView ? "visible" : "hidden"}
             variants={{
               hidden: { opacity: 0, scale: 0.5 },
-              visible: { opacity: 1, scale: 1, transition: { duration: e.duration || 0.5 } },
+              visible: {
+                opacity: 1,
+                scale: 1,
+                transition: { duration: e.duration || 0.5 },
+              },
             }}
             className={`${e.color}`}
             key={idx}
