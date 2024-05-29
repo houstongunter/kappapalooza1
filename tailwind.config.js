@@ -9,7 +9,7 @@ export default {
       },
       colors: {
         kappa: {
-          blue: "#5FC2C0",
+          blue: "#62c3c3",
           bluetwo: "#1E706F",
           bluethree: "#038280",
           bluefour: "#033030",
