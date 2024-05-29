@@ -12,7 +12,7 @@ const Video = () => {
 
   const handleUnmute = () => {
     setIsMuted(!isMuted);
-  }
+  };
 
   return (
     <div className="bg-gradient-to-b from-kappa-bluetwo to-kappa-bluethree shadow-none px-5 md:px-10 py-20">
@@ -30,10 +30,15 @@ const Video = () => {
           muted={isMuted}
           playsInline
           loop
-          >
+        >
           <source src="/frfr.mp4" />
         </motion.video>
-        <button className="text-white rounded-full p-2 bg-kappa-orangeyellow" onClick={handleUnmute}>UNMUTE</button>
+        <button
+          className="text-white rounded-full p-2 bg-kappa-orangeyellow"
+          onClick={handleUnmute}
+        >
+          UNMUTE
+        </button>
       </motion.div>
     </div>
   );

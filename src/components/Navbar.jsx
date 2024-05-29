@@ -18,7 +18,11 @@ const Navbar = ({ isVisible }) => {
   }, [isVisible, controls]);
 
   return (
-    <motion.div className="w-full fixed top-0" animate={controls} initial={{ y: -100 }}>
+    <motion.div
+      className="w-full fixed top-0"
+      animate={controls}
+      initial={{ y: -100 }}
+    >
       <div className="bg-kappa-orange h-fit w-full">
         <div className="flex flex-row justify-center items-center gap-5">
           <img src="kappapalooza.png" height={100} width={200} />
