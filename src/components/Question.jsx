@@ -36,7 +36,9 @@ const Question = () => {
           variants={popInAnimation8xl}
         >
           Riverside&apos;s{" "}
-          <span className="text-kappa-orangeyellow text-5xl lg:text-9xl">BIGGEST</span>
+          <span className="text-kappa-orangeyellow text-5xl lg:text-9xl">
+            BIGGEST
+          </span>
         </motion.p>
         <motion.p
           initial="hidden"

@@ -19,7 +19,7 @@ const Navbar = ({ isVisible }) => {
 
   return (
     <motion.div
-      className="w-full fixed top-0"
+      className="w-full fixed top-0 z-20"
       animate={controls}
       initial={{ y: -100 }}
     >
