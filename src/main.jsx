@@ -5,7 +5,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="h-screen">
+    <div className="h-[calc(100dvh)]">
       <App />
     </div>
   </React.StrictMode>,

@@ -18,20 +18,18 @@ const Navbar = ({ isVisible }) => {
   }, [isVisible, controls]);
 
   return (
-    <motion.div
-      className="bg-kappa-orange h-[7vh] w-full fixed top-0"
-      animate={controls}
-      initial={{ y: -100 }}
-    >
-      <div className="flex flex-row justify-center items-center gap-5">
-        <img src="kappapalooza.png" height={100} width={200} />
-        <div className="text-white text-xl flex flex-col">
-          <p>June 1st, 2024</p>
-          <p>Riverside, CA</p>
+    <motion.div className="w-full fixed top-0" animate={controls} initial={{ y: -100 }}>
+      <div className="bg-kappa-orange h-[7vh] w-full">
+        <div className="flex flex-row justify-center items-center gap-5">
+          <img src="kappapalooza.png" height={100} width={200} />
+          <div className="text-white text-md flex flex-col">
+            <p>June 1st, 2024</p>
+            <p>Riverside, CA</p>
+          </div>
         </div>
       </div>
       <motion.div
-        className="h-[5px] bg-white w-full"
+        className="h-[10px] bg-white w-full fixed top-[7vh]"
         style={{ scaleX: scrollYProgress, transformOrigin: 0 }}
       />
     </motion.div>
