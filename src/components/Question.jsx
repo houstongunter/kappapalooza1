@@ -6,7 +6,7 @@ const Question = () => {
   const scale = useTransform(scrollY, [0, 700], [0, 1]);
 
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 1 });
+  const isInView = useInView(ref, { once: true, amount: 0.5 });
 
   const popInAnimation8xl = {
     hidden: { opacity: 0, scale: 0.5 },
