@@ -21,7 +21,7 @@ const App = () => {
   return (
     <>
       <Navbar isVisible={isNavbarVisible} />
-      <div className="h-[93vh] bg-kappa-orange-sky" ref={introRef}>
+      <div className="h-full" ref={introRef}>
         <Intro />
       </div>
       <Question />
