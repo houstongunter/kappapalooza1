@@ -15,6 +15,7 @@ export default {
           bluefour: "#033030",
           bluefive: "#030E0E",
           orangeyellow: "#ED8C0C",
+          orange: "#FE9900",
           lightcyan: "#76CCE8",
           lightercyan: "#5ABBB9",
           pinkish: "#D0716F",
