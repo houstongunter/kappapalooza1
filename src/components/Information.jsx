@@ -11,7 +11,7 @@ const Section = ({ title, content }) => {
       <p className="text-6xl text-kappa-orangeyellow flex justify-center">
         {title}
       </p>
-      <div className="flex flex-row w-full space-x-12 justify-center pt-3 font-bowlby text-6xl">
+      <div className="flex flex-col lg:flex-row w-full justify-center items-center text-center pt-3 font-bowlby text-2xl lg:text-5xl">
         {content.map((e, idx) => (
           <motion.p
             ref={ref}
@@ -25,7 +25,7 @@ const Section = ({ title, content }) => {
                 transition: { duration: e.duration || 0.5 },
               },
             }}
-            className={`${e.color}`}
+            className={`${e.color} flex flex-col w-full text-justify items-center justify-evenly`}
             key={idx}
           >
             {e.name}

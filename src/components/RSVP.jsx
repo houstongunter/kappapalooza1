@@ -6,7 +6,7 @@ const RSVP = () => {
       <div className="pb-3">
         <Countdown />
       </div>
-        <a href="https://posh.vip/e/kappapalooza-24" className="text-9xl text-kappa-red rounded-full p-8 bg-black">
+        <a href="https://posh.vip/e/kappapalooza-24" className="text-7xl lg:text-9xl text-kappa-red rounded-full p-8 bg-black">
           RSPV NOW
         </a>
     </div>
