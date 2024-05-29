@@ -10,7 +10,7 @@ const Navbar = ({ isVisible }) => {
     if (isVisible) {
       controls.start({
         y: 0,
-        transition: { type: "spring", stiffness: 100 }
+        transition: { type: "spring", stiffness: 100 },
       });
     } else {
       controls.start({ y: -100 });
