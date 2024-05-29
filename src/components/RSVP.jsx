@@ -2,7 +2,7 @@ import Countdown from "./Countdown";
 
 const RSVP = () => {
   return (
-    <div className="h-full bg-gradient-to-b from-kappa-bluefour to-kappa-bluefive flex flex-col justify-center items-center">
+    <div className="h-fit py-24 bg-gradient-to-b from-kappa-bluefour to-kappa-bluefive flex flex-col justify-center items-center">
       <div className="pb-3">
         <Countdown />
       </div>
