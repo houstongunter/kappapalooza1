@@ -4,9 +4,10 @@ const Sponsor = () => {
       <p className="flex w-full text-6xl justify-center text-kappa-lightcyan pb-3">
         Sponsors
       </p>
-      <div className="grid grid-cols-3 gap-4 place-items-center">
+      <div className="grid grid-cols-4 gap-4 place-items-center">
         <img src="/yerbamate.png" height={323} width={309} />
         <img src="/redbull.png" height={323} width={309} />
+        <img src="/dialed.png" height={323} width={309} />
         <img src="/passion_tree.png" height={323} width={309} />
       </div>
     </div>
