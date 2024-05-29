@@ -27,10 +27,10 @@ const Question = () => {
       ref={ref}
       className="h-[93vh] bg-gradient-to-b from-kappa-blue to-kappa-bluetwo shadow-none"
     >
-      <div className="flex flex-col justify-center items-center h-full text-3xl text-white space-y-8">
+      <div className="flex flex-col justify-center items-center h-full text-3xl text-white space-y-8 ">
         <motion.p style={{ scale }}>What is Kappapalooza?</motion.p>
         <motion.p
-          className="text-4xl lg:text-9xl text-center w-full"
+          className="text-5xl lg:text-9xl text-center w-full"
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           variants={popInAnimation8xl}
@@ -42,7 +42,7 @@ const Question = () => {
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           variants={popInAnimation9xl}
-          className="text-6xl lg:text-9xl w-full text-center"
+          className="text-7xl lg:text-9xl w-full text-center"
         >
           <span className="text-kappa-lightcyan">Dayger</span> of the{" "}
           <span className="text-kappa-pinkish">year!</span>
