@@ -6,23 +6,25 @@ const Video = () => {
   const scale = useTransform(scrollY, [0, 700], [0, 1]);
 
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.5 });
+  const isInView = useInView(ref, { once: true, amount: 0 });
 
   return (
-    <div className="h-full bg-gradient-to-b from-kappa-bluetwo to-kappa-bluethree shadow-none overflow-hidden px-10">
+    <div className="bg-gradient-to-b from-kappa-bluetwo to-kappa-bluethree shadow-none px-10">
       <motion.div
         ref={ref}
         initial={{ scale: 0 }}
         animate={{ scale: isInView ? 1 : 0 }}
         transition={{ duration: 1.7 }}
+        className="flex justify-center items-center"
       >
         <motion.video
           style={{ scale }}
-          className="flex justify-center w-full items-center rounded-lg object-cover"
+          className="flex justify-center items-center rounded-lg object-cover md:h-1/5 md:w-1/5"
           autoPlay
           muted
-        >
-          <source src="/lollapalooza.mp4" />
+          playsInline
+          >
+          <source src="/frfr.mp4" />
         </motion.video>
       </motion.div>
     </div>
