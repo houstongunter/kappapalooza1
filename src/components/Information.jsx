@@ -52,11 +52,6 @@ const food = [
   { name: "Snow Cones", color: "text-kappa-lightcyan", duration: 0.7 },
   { name: "Hot Dogs", color: "text-kappa-lime", duration: 1.1 },
 ];
-const drinks = [
-  { name: "Moscow", color: "text-kappa-lime", duration: 0.5 },
-  { name: "Screwdriver", color: "text-kappa-pinkish", duration: 1.3 },
-  { name: "Mule & JJ", color: "text-kappa-lightcyan", duration: 0.9 },
-];
 
 const Information = () => {
   return (
@@ -64,7 +59,6 @@ const Information = () => {
       <Section title="Featuring" content={DJs} />
       <Section title="Activities" content={activities} />
       <Section title="Food" content={food} />
-      <Section title="Drinks" content={drinks} />
     </div>
   );
 };
