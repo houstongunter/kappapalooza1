@@ -31,7 +31,7 @@ const Video = () => {
           playsInline
           loop
         >
-          <source src="/frfrfr.mp4" />
+          <source src="/frfrfrfr.mp4" />
         </motion.video>
         <button
           className="text-white rounded-full p-2 bg-kappa-orangeyellow"
