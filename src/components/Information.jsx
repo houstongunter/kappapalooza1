@@ -42,18 +42,18 @@ const DJs = [
   { name: "Ilan", color: "text-kappa-lime", duration: 1.2 },
 ];
 const activities = [
-  { name: "Surprise", color: "text-kappa-pinkish", duration: 0.3 },
+  { name: "Surprise", color: "text-kappa-lightcyan", duration: 0.3 },
   { name: "Dunk Tank", color: "text-kappa-lime", duration: 1.3 },
-  { name: "Water Slide", color: "text-kappa-lightcyan", duration: 0.4 },
+  { name: "Water Slide", color: "text-kappa-pinkish", duration: 0.4 },
 ];
 const food = [
-  { name: "Burgers", color: "text-kappa-lime", duration: 1 },
-  { name: "Snow Cones", color: "text-kappa-pinkish", duration: 0.7 },
-  { name: "Hot Dogs", color: "text-kappa-lightcyan", duration: 1.1 },
+  { name: "Burgers", color: "text-kappa-pinkish", duration: 1 },
+  { name: "Snow Cones", color: "text-kappa-lightcyan", duration: 0.7 },
+  { name: "Hot Dogs", color: "text-kappa-lime", duration: 1.1 },
 ];
 const drinks = [
-  { name: "Moscow", color: "text-kappa-pinkish", duration: 0.5 },
-  { name: "Screwdriver", color: "text-kappa-lime", duration: 1.3 },
+  { name: "Moscow", color: "text-kappa-lime", duration: 0.5 },
+  { name: "Screwdriver", color: "text-kappa-pinkish", duration: 1.3 },
   { name: "Mule & JJ", color: "text-kappa-lightcyan", duration: 0.9 },
 ];
 
