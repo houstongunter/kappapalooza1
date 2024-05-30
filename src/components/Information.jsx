@@ -11,7 +11,7 @@ const Section = ({ title, content }) => {
       <p className="text-6xl text-kappa-orangeyellow flex justify-center">
         {title}
       </p>
-      <div className="flex flex-col lg:flex-row w-full justify-center items-center text-center pt-3 font-bowlby text-2xl lg:text-5xl">
+      <div className="flex flex-col lg:flex-row w-full justify-center items-center text-center pt-3 font-bowlby text-2xl lg:text-4xl">
         {content.map((e, idx) => (
           <motion.p
             ref={ref}
