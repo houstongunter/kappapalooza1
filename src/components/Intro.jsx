@@ -14,7 +14,7 @@ const Intro = () => {
           playsInline
           loop
         >
-          <source src="/kappapalooza_intro.mov" />
+          <source src="https://d2n6qbkrkvc7o5.cloudfront.net/kappapalooza_intro.mov" />
         </video>
       </div>
       <div className="py-16 bg-kappa-blue" />
