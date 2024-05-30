@@ -22,6 +22,7 @@ export default {
           pinkish: "#D0716F",
           lime: "#ABCB0A",
           red: "#C20808",
+          redish: "#d27370",
         },
       },
     },
