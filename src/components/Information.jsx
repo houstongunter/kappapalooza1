@@ -37,7 +37,7 @@ const Section = ({ title, content }) => {
 };
 
 const DJs = [
-  { name: "Nueve lio", color: "text-kappa-lightcyan", duration: 1.5 },
+  { name: "Nueve Lio", color: "text-kappa-lightcyan", duration: 1.5 },
   { name: "KevKev", color: "text-kappa-pinkish", duration: 0.3 },
   { name: "Ilan", color: "text-kappa-lime", duration: 1.2 },
   { name: "Ceezee", color: "text-kappa-lightcyan", duration: 0.9 },
