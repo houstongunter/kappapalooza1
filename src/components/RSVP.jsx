@@ -6,13 +6,14 @@ const RSVP = () => {
       <div className="pb-3">
         <Countdown />
       </div>
-      <a
-        href="https://posh.vip/e/kappapalooza-24"
-        className="text-7xl lg:text-9xl text-kappa-red rounded-full p-8 bg-black hover:text-kappa-blue"
-        target="_blank"
-      >
-        RSVP NOW
-      </a>
+        <a
+          href="https://posh.vip/e/kappapalooza"
+          className="text-7xl lg:text-9xl text-kappa-red rounded-full p-8 bg-black hover:text-kappa-blue"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          RSVP NOW
+        </a>
     </div>
   );
 };

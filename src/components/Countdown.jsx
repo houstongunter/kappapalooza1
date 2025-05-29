@@ -35,7 +35,7 @@ const Countdown = () => {
     seconds: 0,
   });
 
-  const date = new Date("June 1, 2024 12:00:00");
+  const date = new Date("May 31, 2025 13:00:00");
 
   useEffect(() => {
     const updateTime = () => {

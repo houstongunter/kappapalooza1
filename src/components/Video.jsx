@@ -23,22 +23,15 @@ const Video = () => {
         transition={{ duration: 1.7 }}
         className="flex flex-col justify-center items-center"
       >
-        <motion.video
+        <motion.iframe
           style={{ scale }}
-          className="flex justify-center items-center rounded-lg object-cover md:h-1/5 md:w-1/4 border-4 mb-2"
-          autoPlay
-          muted={isMuted}
-          playsInline
-          loop
-        >
-          <source src="https://d2n6qbkrkvc7o5.cloudfront.net/frfrfrfr.mp4" />
-        </motion.video>
-        <button
-          className="text-white rounded-full p-2 bg-kappa-orangeyellow"
-          onClick={handleUnmute}
-        >
-          {isMuted ? "UNMUTE" : "MUTE"}
-        </button>
+          className="rounded-lg border-4 mb-2 w-full max-w-[360px] aspect-[9/16]"
+          src="https://www.youtube.com/embed/MXgoho66MWs?autoplay=1&mute=1&loop=1&playlist=MXgoho66MWs"
+          title="YouTube Short"
+          frameBorder="0"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+          allowFullScreen
+        />
       </motion.div>
     </div>
   );

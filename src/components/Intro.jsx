@@ -7,15 +7,11 @@ const Intro = () => {
         </p>
       </div>
       <div className="h-full w-full lg:flex lg:justify-center lg:items-center z-10">
-        <video
-          className=" lg:inset-0 lg:object-cover lg:w-full lg:h-full"
-          autoPlay
-          muted
-          playsInline
-          loop
-        >
-          <source src="https://d2n6qbkrkvc7o5.cloudfront.net/kappapalooza_intro.mov" />
-        </video>
+        <img
+          src="/kappapalooza_gif.gif"
+          alt="Intro animation"
+          className="w-full lg:inset-0 lg:object-cover lg:w-full lg:h-full"
+        />
       </div>
       <div className="py-16 bg-kappa-blue" />
     </div>
