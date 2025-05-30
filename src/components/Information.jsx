@@ -45,13 +45,11 @@ const DJs = [
 ];
 const activities = [
   { name: "Surprise", color: "text-kappa-lightcyan", duration: 0.3 },
-  { name: "Dunk Tank", color: "text-kappa-lime", duration: 1.3 },
   { name: "Water Slide", color: "text-kappa-pinkish", duration: 0.4 },
 ];
 const food = [
-  { name: "Burgers", color: "text-kappa-pinkish", duration: 1 },
-  { name: "Snow Cones", color: "text-kappa-lightcyan", duration: 0.7 },
-  { name: "Hot Dogs", color: "text-kappa-lime", duration: 1.1 },
+  { name: "Elotes", color: "text-kappa-pinkish", duration: 1 },
+  { name: "Raspados", color: "text-kappa-lightcyan", duration: 0.7 },
 ];
 
 const Information = () => {
