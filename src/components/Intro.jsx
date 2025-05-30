@@ -8,7 +8,7 @@ const Intro = () => {
       </div>
       <div className="h-full w-full lg:flex lg:justify-center lg:items-center z-10">
         <img
-          src="/kappapalooza_gif.gif"
+          src="/kappapalooza2_gif.GIF"
           alt="Intro animation"
           className="w-full lg:inset-0 lg:object-cover lg:w-full lg:h-full"
         />

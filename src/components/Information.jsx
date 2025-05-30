@@ -37,9 +37,10 @@ const Section = ({ title, content }) => {
 };
 
 const DJs = [
-  { name: "KevKev", color: "text-kappa-pinkish", duration: 0.3 },
-  { name: "Ilan", color: "text-kappa-lime", duration: 1.2 },
-  { name: "Ceezee", color: "text-kappa-lightcyan", duration: 0.9 },
+  { name: "DJ KEV KEV", color: "text-kappa-pinkish", duration: 0.3 },
+  { name: "DJ IKLO", color: "text-kappa-lime", duration: 1.2 },
+  { name: "DJ SHAE", color: "text-kappa-lightcyan", duration: 0.9 },
+  { name: "DJLIU", color: "text-kappa-red", duration: 0.9 },
 ];
 const activities = [
   { name: "Surprise", color: "text-kappa-lightcyan", duration: 0.3 },
