@@ -26,7 +26,7 @@ const Video = () => {
         <motion.iframe
           style={{ scale }}
           className="rounded-lg border-4 mb-2 w-full max-w-[360px] aspect-[9/16]"
-          src="https://www.youtube.com/embed/MXgoho66MWs?autoplay=1&mute=1&loop=1&playlist=MXgoho66MWs"
+          src="https://www.youtube.com/embed/MXgoho66MWs?autoplay=1&mute=0&loop=1&playlist=MXgoho66MWs"
           title="YouTube Short"
           frameBorder="0"
           allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
